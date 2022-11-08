@@ -4,6 +4,7 @@ import { Form, Button, InputNumber } from 'antd';
 class SatSetting extends Component {
     showSatellite = (values) => {
         console.log('Received values of form: ', values);
+        this.props.onShow(values)
 };
 
     render() {
